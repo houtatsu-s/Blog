@@ -3,3 +3,49 @@
 body {
   font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+li {
+  list-style: none;
+}
+.wrapper {
+  max-width: 1200px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+
+
+#header {
+  width: 100%;
+  z-index: 10;
+  background: #FFFFFF;
+  position: fixed;
+}
+.header-title {
+  padding: 20px 16px;
+  line-height: 1px;
+}
+.header-title a {
+  display: inline-block;
+}
+#nav {
+  background: #333333;
+}
+#nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#nav li {
+  padding: 10px 60px 10px 0;
+  font-size: 14px;
+}
+#nav a {
+  color: #fff;
+}
